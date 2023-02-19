@@ -1,4 +1,8 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# MyBike landing page
+The landing page is demonstrated a possible solution of visualization of the layout design for bikes shop. The main purpose of this project is mastering HTML & CSS with minimum JS involving.
+
+Stack: HTML5, SASS, BEM, JS.
+Fully responsive layout was made by using CSS Grid and Flexbox.
+
+Click the link to see [DEMO LINK](https://OleksandrOse.github.io/layout_miami/).
+Design of the landing page you could find [here](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1).
