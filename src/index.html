@@ -381,19 +381,22 @@
               grid__item--dekstop-1-5
             ">
               <form
+                onsubmit="this.reset(); return false;"
                 action="#"
                 class="contact-us__form"
               >
-                <input 
+                <input
                   name="name"
                   type="text"
                   class="contact-us__field form-field"
                   placeholder="Name"
+                  required
                 >
                 <input
                   name="email" type="email"
                   class="contact-us__field form-field"
-                  placeholder="Email"
+                  placeholder="E-mail"
+                  required
                 >
                 <textarea
                   name="message"
@@ -404,9 +407,10 @@
                     form-field-textarea
                   "
                   placeholder="Message"
+                  required
                 ></textarea>
 
-                <button type="reset" class="button">
+                <button type="submit" class="button">
                   Send
                 </button>
               </form>
@@ -426,7 +430,7 @@
 
               <div class="contact-us__info">
                 <div class="contact-us__info-title">
-                  Email
+                  E-mail
                 </div>
                 <a href="mailto: hello@miami.com" class="contact-us__info-link">hello@miami.com</a>
               </div>
@@ -434,7 +438,11 @@
               <div class="contact-us__info-title">
                 Address
               </div>
-              <a href="https://goo.gl/maps/5nPDV26cr1BbznYh7" class="contact-us__info-link">
+              <a
+                href="https://goo.gl/maps/5nPDV26cr1BbznYh7"
+                class="contact-us__info-link"
+                target="_blank"
+              >
                 400 first ave. n.
                 <br>
                 suite 700

@@ -11,8 +11,9 @@
 
   @include onDekstop {
     width: 100%;
-    background-position: right bottom;
+    background-position: right;
     background-size: 91% 115%;
+    background-position-y: 90%;
   }
   
   &__container {
@@ -26,6 +27,10 @@
     box-sizing: border-box;
     height: 100vh;
     padding: $headerTopPadding 0 80px;
+
+    @include onDekstop {
+      height: 710px;
+    }
   }
 
   &__top {
@@ -47,7 +52,7 @@
     }
 
     @include onDekstop {
-      margin: 0 auto 250px;
+      margin: 0 auto 200px;
       font-size: 80px;
       line-height: 80px;
     }
